@@ -73,7 +73,7 @@ const AvailableCubes = () => {
     />
   ));
   return (
-    <section className={classes.cubes}>
+    <section className={classes.cubes} id="buy-cubes">
       <Card>
         <ul>{cubesList}</ul>
       </Card>

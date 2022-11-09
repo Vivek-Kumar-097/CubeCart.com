@@ -15,8 +15,8 @@
 }
 
 .main-image {
-  margin-top: 80px;
-  width: 100%;
+  margin: 85px auto 0;
+  width: 97%;
   height: 25rem;
   z-index: 0;
   overflow: hidden;
@@ -24,6 +24,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-radius: 14px;
+  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
 }
 
 .main-image img {

@@ -15,7 +15,7 @@ const Header = (props) => {
           India <span className={classes.word}>Largest</span> Puzzle Store
         </h1>
         <p>Get your first puzzle</p>
-        <button>Order Now</button>
+        <a href='#buy-cubes'><button>Order Now</button></a>
         <img src={banner} alt="cube banner" />
       </div>
     </Fragment>
