@@ -38,6 +38,21 @@
   color: black;
 }
 
+@media screen and (max-width: 650px) {
+  .text {
+    display: none;
+  }
+
+  .button {
+    padding: 0.2rem 0.45rem;
+    margin-left: 0.5rem;
+  }
+
+  .badge {
+    margin-left: 0;
+    padding: 0.25rem 0.45rem;
+  }
+}
 .bump {
   animation: bump 300ms ease-out;
 }

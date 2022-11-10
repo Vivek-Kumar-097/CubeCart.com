@@ -1,14 +1,14 @@
 import { Fragment } from 'react';
 import banner from '../../assets/Banner.webp';
 import classes from './Header.module.css';
-import HeaderCartButton from './HeaderCartButton';
+import Navbar from './Navbar';
+
 
 const Header = (props) => {
   return (
     <Fragment>
-      <header className={classes.header}>
-        <h1>CubeCart</h1>
-        <HeaderCartButton onClick={props.onShowCart} />
+      <header >
+        <Navbar onShowCart={props.onShowCart}></Navbar>  
       </header>
       <div className={classes['main-image']}>
         <h1>
