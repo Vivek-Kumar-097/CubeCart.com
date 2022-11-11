@@ -22,6 +22,9 @@
 }
 
 @media screen and (max-width: 650px) {
+  .summary {
+    background-position: right;
+  }
   .summary h2 {
     font-size: 1.2rem;
     margin-top: 0;
