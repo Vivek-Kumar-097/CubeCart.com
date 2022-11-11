@@ -29,13 +29,13 @@ const Navbar = (props) => {
           <a href="#buy-cubes" onClick={handleClick}>Cubes</a>
         </li>
         <li className={classes["nav-item"]}>
-          <a href="/">About</a>
+          <a href="#footer" onClick={handleClick}>About</a>
         </li>
         <li className={classes["nav-item"]}>
           <a href="https://cubecartsurvey.netlify.app/">Survey Form</a>
         </li>
         <li className={classes["nav-item"]}>
-          <a href="/">Contact</a>
+          <a href="#footer" onClick={handleClick}>Contact</a>
         </li>
       </ul>
       <HeaderCartButton onClick={props.onShowCart} />
