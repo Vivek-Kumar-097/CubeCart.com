@@ -26,13 +26,13 @@ const Navbar = (props) => {
       </div>
       <ul className={click ? `${classes['nav-menu']} ${classes.active} }` : classes['nav-menu']}>
         <li className={classes["nav-item"]}>
-          <a href="#buy-cubes">Cubes</a>
+          <a href="#buy-cubes" onClick={handleClick}>Cubes</a>
         </li>
         <li className={classes["nav-item"]}>
           <a href="/">About</a>
         </li>
         <li className={classes["nav-item"]}>
-          <a href="/">Survey Form</a>
+          <a href="https://cubecartsurvey.netlify.app/">Survey Form</a>
         </li>
         <li className={classes["nav-item"]}>
           <a href="/">Contact</a>

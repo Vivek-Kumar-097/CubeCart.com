@@ -13,3 +13,12 @@ body {
   background: orangered;
 }
 
+footer {
+  text-align: center;
+  color: whitesmoke;
+}
+
+footer a {
+  color: darkorchid;
+  border-bottom: 1px solid darkorchid ;
+}

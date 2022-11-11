@@ -22,6 +22,9 @@ function App() {
       <main>
         <Cubes></Cubes>
       </main>
+      <footer>
+        <p>Project made by <a href="https://www.linkedin.com/in/vivekkumar097/" target="_blank">Vivek Kumar</a></p>
+      </footer>
     </CartProvider>
   );
 }
